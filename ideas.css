@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  background-color: #E7E7E7;
+  padding: 50px;
+  margin: -15px -15px 30px -15px;
+}
+.title {
+  font-family: Georgia;
+  text-align: center;
+}
+.subtitle {
+  font-family: Georgia;
+  padding: 0px 0px 10px 20px;
+  color:#313F7C;
+}
+li {
+  font-family: Georgia;
+  font-size: 16pt;
+  padding-bottom: 10px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+.card {
+  width: 25%;
+  background-color: #7E9AD3;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 15px;
+}
+.odd .card {
+  background-color: #5CC754;
+}
+.odd .subtitle {
+  color:#166C23;
+}
