@@ -11,7 +11,7 @@
 .subtitle {
   font-family: Georgia;
   padding: 0px 0px 10px 20px;
-  color:#313F7C;
+  color: #DDD;
 }
 li {
   font-family: Georgia;
@@ -26,10 +26,15 @@ li {
 }
 .card {
   width: 25%;
-  background-color: #7E9AD3;
   border-radius: 20px;
   margin: 15px;
   padding: 15px;
+}
+.even .card {
+  background-color: #7E9AD3;
+}
+.even .subtitle {
+  color: #313F7C;
 }
 .odd .card {
   background-color: #5CC754;
