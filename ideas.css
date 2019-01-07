@@ -3,6 +3,7 @@
   background-color: #E7E7E7;
   padding: 50px;
   margin: -15px -15px 30px -15px;
+  justify-content: center;
 }
 .title {
   font-family: Georgia;
