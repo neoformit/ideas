@@ -3,7 +3,6 @@
   background-color: #E7E7E7;
   padding: 50px;
   margin: -15px -15px 30px -15px;
-  justify-content: center;
 }
 .title {
   font-family: Georgia;
@@ -11,6 +10,7 @@
 }
 .subtitle {
   font-family: Georgia;
+  text-align: center;
   padding: 0px 0px 10px 20px;
   color: #666;
 }
@@ -36,10 +36,12 @@ li {
 }
 .even .subtitle {
   color: #313F7C;
+  text-align: left;
 }
 .odd .card {
   background-color: #5CC754;
 }
 .odd .subtitle {
   color:#166C23;
+  text-align: left;
 }
